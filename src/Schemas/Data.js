@@ -198,11 +198,11 @@ export const Data = {
         ],
       },
       {
-        name: "기업 프로젝트기반 빅데이터를 활용한 백앤드 개발자 양성",
-        company: "천호 아트 아카데미",
-        period: "Jun. 2023 - Jan 2024",
+        name: "ITS(지능형교통체계)를 반영한 빅데이터 활용 풀스택 전문가 양성",
+        company: "이젠컴퓨터아카데미화곡",
+        period: "Jan 2024 - July 2024 예정",
         description: [
-          "JAVA ,JSP, 스프링,JAVASCRIPT,JQUERY ,HTML,CSS,SQL, Mybatis , 파이선, 빅데이터 ,머신러닝 ,딥러닝 강의"
+          "JAVA ,JSP, 스프링,JAVASCRIPT,JQUERY ,HTML,CSS,SQL, Mybatis , 파이선, 빅데이터 강의"
         ],
       },
     ],
