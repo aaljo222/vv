@@ -25,6 +25,7 @@ export const Data = {
       "인공지능",
       "IOT",
       "회로설계",
+      "웹개발"
     ],
     softSkills: [
       "React",
@@ -36,7 +37,6 @@ export const Data = {
       "JAVASCRIPT",
       "JQuery",
       "SQL",
-      "Git",
       "C++",
     ],
   },
@@ -200,7 +200,7 @@ export const Data = {
       {
         name: "ITS(지능형교통체계)를 반영한 빅데이터 활용 풀스택 전문가 양성",
         company: "이젠컴퓨터아카데미화곡",
-        period: "Jan 2024 - July 2024 예정",
+        period: "Jan 2024 - July 2024 진행중",
         description: [
           "JAVA ,JSP, 스프링,JAVASCRIPT,JQUERY ,HTML,CSS,SQL, Mybatis , 파이선, 빅데이터 강의"
         ],
