@@ -10,14 +10,16 @@ export const Data = {
   aboutMe: {
     label: "Profile",
     description:
-   [ "실무 경력 23년, 교육 경력 6년 을 동시에 겸비한 전문 개발자 및 교육자 ",
-    " 사랑하는 두딸,아내와 소소한 행복을 꿈꾸는 평범한 남편이자 아빠  " ]
+   [ "실무 경력 23년 6개월, 교육 경력 6년 6개월 (총 30년 IT 경력)을 동시에 겸비한 전문 개발자 및 교육자",
+    " 사랑하는 두딸,아내와 소소한 행복을 꿈꾸는 평범한 남편이자 아빠" ,
+    "신기술을 빠르게 적용하여 학생들에게 최신의 기술을 전달하려고 노력하는 교육자",
+    "Hardware ,software, 수학, IOT, 빅데이터, 인공지능의  융합형 개발자 및 교육자
+   ]
   },
   skills: {
     technicalLabel: "Technology",
     softLabel: "Skills",
-    technicalSkills: [
-      
+    technicalSkills: [      
       "컴퓨터 비전",
       "영상 신호 처리",
       "임베디드",
@@ -25,10 +27,7 @@ export const Data = {
       "인공지능",
       "IOT",
       "회로설계",
-<<<<<<< HEAD
-=======
       "웹개발"
->>>>>>> 94527d4a3e0637bb62d3567a91d1e17fddcf7167
     ],
     softSkills: [
       "React",
@@ -40,36 +39,12 @@ export const Data = {
       "JAVASCRIPT",
       "JQuery",
       "SQL",
-<<<<<<< HEAD
       "Git",
-=======
->>>>>>> 94527d4a3e0637bb62d3567a91d1e17fddcf7167
       "C++",
+      "C언어"
     ],
   },
-  socialMedia: {
-    label: "SOCIAL",
-    social: [
-      {
-        label: "Maaato",
-        name: "linkedin",
-        url: "https://www.linkedin.com/in/matias-alfonso-lagos-gajardo",
-        className: "bxl-linkedin-square",
-      },
-      {
-        label: "Maaato",
-        name: "github",
-        url: "https://github.com/Maaato",
-        className: "bxl-github",
-      },
-      {
-        label: "Maaato",
-        name: "twiiter",
-        url: "https://twitter.com/I_Maaato",
-        className: "bxl-twitter",
-      },
-    ],
-  },
+
   experience: {
     works: [
       {
@@ -127,15 +102,23 @@ export const Data = {
       {
         name: "자바 빅데이터 전문과 과정",
         company: "솔데스크",
-        period: "May. 2018 - Nov. 2018",
+        period: "2018/5/24~2018/11/27",
         description: [
           "JAVA ,JSP, 스프링,JAVASCRIPT,JQUERY ,파이썬,HTML,CSS,딥러닝,머신러닝 강의"
       ],
       },
       {
+        name: "대기업 딥러닝 강의",
+        company: "한국글로벌날리지",
+        period: "2018/12/31~2019/3/4 ",
+        description: [
+          "OPENCV , Convolution Neural Network, 영상 신호 처리"
+      ],
+      },
+      {
         name: "자바 웹프로그래밍 및 정보처리 산업 기사 자격증 취득 과정",
         company: "솔데스크",
-        period: "Jun. 2019 - Dec. 2019",
+        period: "2019/06/06 ~2019/12/28",
         description: [
           "JAVA ,JSP, 스프링,JAVASCRIPT,JQUERY ,HTML,CSS,SQL, Mybatis 강의"
         ],
@@ -143,7 +126,7 @@ export const Data = {
       {
         name: "웹+빅데이터+안드로이드",
         company: "그린 컴퓨터",
-        period: "Dec. 2019 - Dec. 2020",
+        period: "2019/12/31~2020/07/16",
         description: [
           "JAVA ,JSP, 스프링,JAVASCRIPT,JQUERY ,HTML,CSS,SQL, Mybatis ,안드로이드, 파이선, 빅데이터 ,머신러닝 ,딥러닝 강의"
         ],
@@ -151,7 +134,7 @@ export const Data = {
       {
         name: "자바& 스프링 웹프로그래밍",
         company: "그린 컴퓨터",
-        period: "July. 2020 - Jan. 2021",
+        period: "2020/07/17 ~2021/01/29",
         description: [
           "JAVA ,JSP, 스프링,JAVASCRIPT,JQUERY ,HTML,CSS,SQL, Mybatis 강의",
         ],
@@ -159,7 +142,7 @@ export const Data = {
       {
         name: " JAVA(자바) & Spring(스프링) 프레임워크 개발자",
         company: "그린 컴퓨터",
-        period: "Feb. 2021 - July 2021",
+        period: "2021/02/01 ~2021/07/13",
         description: [
           "JAVA ,JSP, 스프링,JAVASCRIPT,JQUERY ,HTML,CSS,SQL, Mybatis 강의",
         ],
@@ -167,7 +150,7 @@ export const Data = {
       {
         name: "공공데이터 융합 자바(JAVA) & 파이썬 웹개발자 양성 과정",
         company: "그린 컴퓨터",
-        period: "July. 2021 - Dec 2021",
+        period: "2021/07/19~2021/12/31",
         description: [
           "JAVA ,JSP, 스프링,JAVASCRIPT,JQUERY ,HTML,CSS,SQL, Mybatis , 파이선, 빅데이터 ,머신러닝 ,딥러닝 강의"
         ],
@@ -175,7 +158,7 @@ export const Data = {
       {
         name: "파이썬(Python) & 자바(JAVA) 백엔드 개발자",
         company: "그린 컴퓨터",
-        period: "Dec. 2021 - Jun 2022",
+        period: "2021/12/28~2022/06/17",
         description: [
           "JAVA ,JSP, 스프링,JAVASCRIPT,JQUERY ,HTML,CSS,SQL, Mybatis , 파이선, 빅데이터 ,머신러닝 ,딥러닝 강의"
         ],
@@ -183,7 +166,7 @@ export const Data = {
       {
         name: "K 디지털 (영상 지능 AI 전문가 양성 과정)",
         company: "두드림",
-        period: "Jun. 2022 - Dec 2022",
+        period: "2022/07/08~2022/12/16",
         description: [
           "JAVA ,JSP, 스프링,JAVASCRIPT,JQUERY ,HTML,CSS,SQL, Mybatis , 파이선, 빅데이터 ,머신러닝 ,딥러닝 ,컴퓨터 비전 강의"
         ],
@@ -191,7 +174,7 @@ export const Data = {
       {
         name: "기업요구사항을 반영한 자바&파이썬기반 빅데이터활용 풀스택개발",
         company: "수원 이젠",
-        period: "Dec. 2022 - Jun 2023",
+        period: "2022/12/30 ~2023/06/21",
         description: [
           "JAVA ,JSP, 스프링,JAVASCRIPT,JQUERY ,HTML,CSS,SQL, Mybatis , 파이선, 빅데이터 ,머신러닝 ,딥러닝 강의"
         ],
@@ -199,21 +182,24 @@ export const Data = {
       {
         name: "기업 프로젝트기반 빅데이터를 활용한 백앤드 개발자 양성",
         company: "천호 국제 아트 아카데미",
-        period: "Jun. 2023 - Jan 2024",
+        period: "2023/07/03~ 2024/01/02",
         description: [
           "JAVA ,JSP, 스프링,JAVASCRIPT,JQUERY ,HTML,CSS,SQL, Mybatis , 파이선, 빅데이터 ,머신러닝 ,딥러닝 강의"
         ],
       },
       {
         name: "ITS(지능형교통체계)를 반영한 빅데이터 활용 풀스택 전문가 양성",
-        company: "이젠컴퓨터아카데미화곡",
-<<<<<<< HEAD
-        period: "Jan 2024 - July 2024 예정",
-=======
-        period: "Jan 2024 - July 2024 진행중",
->>>>>>> 94527d4a3e0637bb62d3567a91d1e17fddcf7167
+        company: "서울 화곡 엠비씨 아카데미",
+        period: "2024/01/25 ~ 2024/.07/18",
         description: [
           "JAVA ,JSP, 스프링,JAVASCRIPT,JQUERY ,HTML,CSS,SQL, Mybatis , 파이선, 빅데이터 강의"
+        ],
+         {
+        name: "프로젝트기반 웹&앱(자바,스프링,리액트,노코드) SW개발자 양성과정",
+        company: "성남 미금 그린아카데미",
+        period: "2024/07/24~ 2025/01/21 진행중",
+        description: [
+          "JAVA ,스프링 부트 ,JAVASCRIPT,리액트,JPA ,HTML,CSS,SQL, 파이선, 노코드"
         ],
       },
     ],
